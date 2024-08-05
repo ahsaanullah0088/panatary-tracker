@@ -1,0 +1,181 @@
+/* main.css */
+
+/* Container for centering the entire content */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  text-align: center; /* Center text within the container */
+}
+
+/* Title styling */
+h1 {
+  font-size: 2rem;
+  color: #343a40;
+  margin: 0 auto 2rem; /* Center the title */
+}
+
+/* Form section styling */
+.formSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center form elements */
+  gap: 1rem; /* Spacing between form elements */
+  margin-bottom: 2rem;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center form elements horizontally */
+}
+
+/* Form Input */
+form .MuiTextField-root {
+  width: 100%;
+  max-width: 300px; /* Width of input fields */
+  margin: 0.5rem 0; /* Spacing between input fields */
+}
+
+form .MuiTextField-root .MuiInputBase-root {
+  padding: 8px 12px; /* Padding inside input fields */
+  font-size: 14px; /* Font size */
+  border: 1px solid #ced4da;
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form .MuiTextField-root .MuiInputBase-root.Mui-focused {
+  border-color: #007bff;
+  box-shadow: 0 2px 8px rgba(0, 123, 255, 0.3);
+  outline: none;
+}
+
+/* Submit Button */
+form button[type="submit"] {
+  background-color: #28a745;
+  border: none;
+  border-radius: 20px; /* Rounded corners */
+  padding: 10px 20px; /* Padding for button */
+  font-size: 16px; /* Font size */
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  max-width: 300px; /* Consistent width */
+  margin: 1rem auto; /* Center the button */
+}
+
+form button[type="submit"]:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Search Bar Container */
+.searchBarContainer {
+  display: flex;
+  justify-content: center; /* Center search bar horizontally */
+  margin-top: 2rem; /* Space above search bar */
+}
+
+/* Search Bar Styling */
+.searchBar {
+  width: 100%;
+  max-width: 300px; /* Consistent width */
+  padding: 8px 12px; /* Padding inside search bar */
+  font-size: 14px; /* Font size */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.searchBar:focus {
+  border-color: #007bff;
+  box-shadow: 0 2px 8px rgba(0, 123, 255, 0.3);
+  outline: none;
+}
+
+/* List Section */
+.listSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center list items */
+  gap: 1rem; /* Space between list items */
+  margin-top: 2rem;
+}
+
+/* List Container */
+.listContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space between list item and buttons */
+  padding: 15px 300px 15px 100px;
+  margin-bottom: 10px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease, transform 0.3s ease;
+  width: auto; /* Full width */
+  max-width: 7000px; /* Consistent width */
+}
+
+.listContainer:hover {
+  background: #f1f1f1;
+  transform: scale(1.02);
+}
+
+/* List Items */
+.listItem {
+  flex: 1;
+  font-size: 18px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center text */
+}
+
+/* Button Group */
+.buttonGroup {
+  display: flex;
+  gap: 8px;
+}
+
+/* Buttons */
+.buttonGroup button {
+  background-color: #007bff;
+  border: none;
+  border-radius: 20px; /* Rounded corners */
+  padding: 8px 12px; /* Padding */
+  font-size: 14px; /* Font size */
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.buttonGroup button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.deleteButton {
+  background-color: #dc3545;
+}
+
+.deleteButton:hover {
+  background-color: #c82333;
+}
+
+/* Hide the span element with the class 'close' */
+span.close {
+  display: none !important;
+}

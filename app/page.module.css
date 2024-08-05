@@ -1,0 +1,18 @@
+.main {
+  padding: 2rem;
+  text-align: center; /* Center content */
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.formSection {
+  margin-bottom: 2rem;
+}
+
+.listSection {
+  margin-top: 2rem;
+}
+
+/* Add or adjust other styles as needed */
